@@ -1,0 +1,77 @@
+.cards-container{
+    height: 80px;
+    width: 400px;
+    background-color:#1b1b32;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 14px 23px -14px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    margin-top: 20px;
+
+
+}
+.cards-container:nth-child(3n + 1){
+    background-color: #2a2a40;
+    margin-top: 20px;
+}
+.cards-container:nth-child(3n + 2){
+    background-color: #353548;
+    margin-top: 20px;
+}
+
+.img-container2 img{
+    width:60px;
+    height:60px;
+    border-radius:150px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    transition: 0.3s;
+    
+}
+
+.img-container2 img:hover{
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.redSocial-container{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redSocial-container a {
+    color: rgb(184, 180, 180);
+    width: 40px;
+    transition: 0.2s;
+    
+}
+
+.redSocial-icon{
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+.redSocial-icon:hover{
+    width: 25px;
+    height: 25px;
+}
+
+.redSocial-container a:hover {
+    color: rgb(255, 255, 255);
+    width: 40px;
+    
+}
+.button3{
+    margin-left: 5px;
+	background-color:#e43333;
+	border-radius:35px;
+    border: none;
+    cursor:pointer;
+	color:#e4dddd;
+	font-size:15px;
+	padding:8px 30px;
+	text-decoration:none;
+}

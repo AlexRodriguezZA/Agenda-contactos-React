@@ -1,0 +1,26 @@
+.lista-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-container{
+    margin-top: 20px;
+}
+.title-container h2{ 
+    font-size: 40px;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 500px;
+    
+}

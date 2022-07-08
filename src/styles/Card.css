@@ -1,0 +1,112 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 70px;
+    box-shadow: -1px 14px 23px -14px rgba(0,0,0,0.75);
+    margin-left: 200px;
+    background-color: aliceblue;
+
+
+}
+    
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-container img{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border: 1px solid rgb(0, 255, 255);
+    margin-top: 30px;
+}
+.name-container h1{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+
+}
+.name-container p{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+
+.data-data-container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.data-data-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.button1{ 
+    box-shadow: 0px 0px 7px 0px #3dc21b;
+	background-color:#44c767;
+	border-radius:35px;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    
+}
+.button1:hover{
+    color: white;
+}
+.button2{ 
+    margin-left: 30px;
+    box-shadow: 0px 0px 7px 0px #510303;
+	background-color:#c74444;
+	border-radius:35px;
+    cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    
+}
+
+.button2:hover{
+    color: white;
+}
+
+
+
