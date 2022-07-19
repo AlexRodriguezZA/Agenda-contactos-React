@@ -12,7 +12,7 @@ function App() {
   
   
   
-  //funcion para capturar datos de la api
+  //función para capturar datos de la api
   const getData = async () => {
     const data = await fetch("https://randomuser.me/api")
     const dataJson = await data.json()
@@ -20,14 +20,13 @@ function App() {
     setUser(dataJson.results)
   }
 
-  //usamos usEffect para que cuando se renderice la página podamos ver datos de la api en a la card 
+  //usamos usEffect para que cuando se renderice la página podamos ver datos de la api en la card de usuario 
   useEffect(() =>{
       getData()
     },[])
 
   
   const HandleAddContact = () =>{
-    //probé con spread operator pero no funcionaba, luego utilice la funcion concat
     setContactos(contactos.concat(users))
     //setContactos(currentUsers => currentUsers.concat(users)) ---> otra forma de hacerlo
     getData() 
@@ -58,7 +57,7 @@ function App() {
                   img={user.picture.large}
                   agregarContacto={HandleAddContact} /* funcion para agregrar un contacto, dentro de esta funcion tambien utilizamos genData() para obenter nuevos usuarios de la api */
                   recargarDatos={getData} /* utilizamos la funcion getData, que tambien utilizamos en 
-                  el hook useEffect para que podamos rederizar nueva informacion en la card de usuarios*/
+                  el hook useEffect para que podamos rederizar nueva información en la card de usuarios*/
             />
             )
           }
