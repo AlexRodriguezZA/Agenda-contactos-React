@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Agenda-contactos-React/static/css/main.a7af94ed.css",
-    "main.js": "/Agenda-contactos-React/static/js/main.ff16d3dc.js",
+    "main.css": "/Agenda-contactos-React/static/css/main.f23488ab.css",
+    "main.js": "/Agenda-contactos-React/static/js/main.76941ac0.js",
     "index.html": "/Agenda-contactos-React/index.html",
-    "main.a7af94ed.css.map": "/Agenda-contactos-React/static/css/main.a7af94ed.css.map",
-    "main.ff16d3dc.js.map": "/Agenda-contactos-React/static/js/main.ff16d3dc.js.map"
+    "main.f23488ab.css.map": "/Agenda-contactos-React/static/css/main.f23488ab.css.map",
+    "main.76941ac0.js.map": "/Agenda-contactos-React/static/js/main.76941ac0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7af94ed.css",
-    "static/js/main.ff16d3dc.js"
+    "static/css/main.f23488ab.css",
+    "static/js/main.76941ac0.js"
   ]
 }
