@@ -1,0 +1,28 @@
+.Mobile-container button{
+    border: none;
+    border-radius: 100%;
+    height: auto;
+    width: 40px;
+    
+
+}
+
+.icon-person{
+    width: 40px;
+    height: auto;
+}
+.LengthContact{
+    position: relative;
+    top: 10px;
+    left: 55%;
+    background: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    padding: 2px;
+}

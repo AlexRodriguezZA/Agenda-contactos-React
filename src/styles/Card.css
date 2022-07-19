@@ -109,4 +109,11 @@
 }
 
 
-
+@media (max-width:768px){
+      
+    .card-container{
+        height: 100%;
+        width: 100%;
+        
+    }
+  }

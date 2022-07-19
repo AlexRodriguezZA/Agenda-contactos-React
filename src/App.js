@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState} from 'react';
 import Card from './components/Card'
 import ListCard from './components/ListCard';
+import ListCardMobile from './components/ListCardMobile';
 
 
 function App() {
@@ -62,6 +63,10 @@ function App() {
             )
           }
          
+      </div>
+      <div className='lista-container-mobile'>
+        <ListCardMobile LengthContact={contactos.length}/>
+        
       </div>
       <div className='List-container'>
         <ListCard listaDeContactos={contactos} FuncionEliminarContacto={HandleRemoveContact} />

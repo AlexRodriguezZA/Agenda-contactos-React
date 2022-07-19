@@ -16,4 +16,29 @@
 
 .App h1{
     text-align: center;
+
 }
+.lista-container-mobile{
+    display: none;
+}
+
+@media (max-width:768px){
+    .Card-Conteiner{
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+       
+
+       
+    }
+    .List-container{
+        display: none;
+    }
+    .lista-container-mobile{
+        display: block;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+  }
+
