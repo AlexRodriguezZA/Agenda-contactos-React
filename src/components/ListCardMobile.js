@@ -7,7 +7,7 @@ const ListCardMobile = ({LengthContact})=>{
     return(
         <div className="Mobile-container">
             <button>
-            <span className="LengthContact"> {LengthContact} </span> 
+                <span className="LengthContact"> {LengthContact} </span> 
                 <BsFillPersonFill className="icon-person"/>
             </button>
 
