@@ -45,18 +45,18 @@
 .redSocial-container a {
     color: rgb(184, 180, 180);
     width: 40px;
-    transition: 0.2s;
     
 }
 
 .redSocial-icon{
-    width: 20px;
-    height: 20px;
-    transition: 0.3s;
-}
-.redSocial-icon:hover{
     width: 25px;
     height: 25px;
+    transition: 0.3s;
+}
+
+.redSocial-icon:hover{
+    width: 30px;
+    height: 30px;
 }
 
 .redSocial-container a:hover {
